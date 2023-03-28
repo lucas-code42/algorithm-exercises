@@ -1,6 +1,6 @@
 while True:
     try:
-        linha_new = 
+        linha_new = ""
         linha = input()
 
         maiuscula = True
