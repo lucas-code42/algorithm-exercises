@@ -1,9 +1,9 @@
 
 def main():
     inputs = input().split(" ")
-    aluno = inputs[0]
-    folhas = inputs[1]
-    papel = inputs[2]
+    aluno = int(inputs[0])
+    folhas = int(inputs[1])
+    papel = int(inputs[2])
 
     if folhas < (aluno * papel):
         print("N")
